@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple App Cloner Simulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            keyframes: {
+              shake: {
+                '0%, 100%': { transform: 'translateX(0)' },
+                '10%, 30%, 50%, 70%, 90%': { transform: 'translateX(-5px)' },
+                '20%, 40%, 60%, 80%': { transform: 'translateX(5px)' },
+              },
+            },
+            animation: {
+              shake: 'shake 0.5s ease-in-out',
+            },
+            colors: {
+              'phone-bg-light': '#f7f7f7',
+              'phone-bg-dark': '#1a1a1a',
+              'app-bg-light': '#ffffff',
+              'app-bg-dark': '#242424',
+              'primary': {
+                '50': '#ecfdf5',
+                '100': '#d1fae5',
+                '200': '#a7f3d0',
+                '300': '#6ee7b7',
+                '400': '#34d399',
+                '500': '#10b981',
+                '600': '#059669',
+                '700': '#047857',
+                '800': '#065f46',
+                '900': '#064e3b',
+                '950': '#022c22',
+              },
+            }
+          }
+        }
+      }
+    </script>
+    <script async defer src="https://apis.google.com/js/api.js"></script>
+    <script async defer src="https://accounts.google.com/gsi/client"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.553.0",
+    "react-hot-toast": "https://aistudiocdn.com/react-hot-toast@^2.6.0",
+    "firebase/app": "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js",
+    "firebase/auth": "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js",
+    "firebase/firestore": "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js",
+    "firebase/": "https://aistudiocdn.com/firebase@^12.5.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-200 dark:bg-gray-900">
+    <div id="root"></div>
+  </body>
+</html>

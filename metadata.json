@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Copy of Multiple App Cloner Simulator",
+  "description": "A web-based simulator for an Android app that lets users clone/install and run multiple instances of any installed app on a single device, each instance with its own isolated data and settings.",
+  "requestFramePermissions": []
+}
